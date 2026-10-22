@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="nn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+  <meta name="theme-color" content="#103b78">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>STRAFFEKONGEN ⚽ – v2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">👑 STRAFFEKONGEN <small>⚽</small></div>
+      <button id="soundBtn" class="round-btn" aria-label="Slå lyd av eller på">🔊</button>
+    </header>
+    <section class="scorebar" aria-label="Poengtavle">
+      <div><span>MÅL</span><strong id="goals">0</strong></div>
+      <div class="attempts" id="attempts" aria-label="Fem straffespark">⚽ ⚽ ⚽ ⚽ ⚽</div>
+      <div><span>REKORD 🏆</span><strong id="record">0</strong></div>
+    </section>
+    <div class="field" id="field">
+      <canvas id="game" width="900" height="1200" aria-label="Straffesparkbane med keeper"></canvas>
+      <div class="message" id="message" aria-live="polite">Dra fingeren frå ballen for å skyte!</div>
+      <div class="overlay" id="overlay">
+        <div class="intro-art"></div>
+        <div class="overlay-panel">
+          <h1 id="overlayTitle">⚽ STRAFFEKONGEN!</h1>
+          <p id="overlayText">Klar for fem straffespark? Dra frå ballen mot målet. Keeperen prøver å stoppe deg!</p>
+          <button id="startBtn" class="primary">▶ SPEL NO!</button>
+        </div>
+      </div>
+    </div>
+    <footer><span id="hint">🎯 Dra frå ballen og slepp!</span><button id="restartBtn">↻ Ny runde</button></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
