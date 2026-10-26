@@ -1,0 +1,10 @@
+STRAFFEKONGEN V6
+
+Pakk ut ZIP. Opne index.html i Chrome eller Edge.
+For GitHub Pages: Last opp index.html, style.css, script.js og heile assets-mappa i rota av repoet.
+
+45 separate bilete i assets/. Alle er refererte av script.js (eller HTML for menybiletet).
+32 karakterstillingar har transparent bakgrunn og ekstra margin rundt kroppen.
+
+Merk: Bileta kjem frå ei illustrert spriteoversikt. Dei er ikkje ekte 3D-modellar, og nokre originale figurar har ujamne konturar.
+Testa: filintegritet, antal bilete og JavaScript-syntaks (dersom Node tilgjengeleg). Full nettlesartest er ikkje gjennomført.
