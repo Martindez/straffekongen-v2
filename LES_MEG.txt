@@ -1,9 +1,0 @@
-STRAFFEKONGEN V3 – 3D-inspirerte figurar og sprite-animasjonar
-
-Last opp index.html, style.css, script.js og heile assets-mappa til same GitHub Pages-repositorium.
-
-Vel Noreg eller Kongo som skyttar. Den andre drakta blir keeperen si. Dra frå ballen og opp mot målet.
-
-Bileta i assets er separate transparente sprite-rammer frå illustrasjonsarket. Dette er 2D-bilete med 3D-stil, ikkje ekte 3D-modellar.
-
-Merk: Bileta er automatisk frilagde frå eit illustrasjonsark. Nokre kantar kan trenge manuell finpuss.
